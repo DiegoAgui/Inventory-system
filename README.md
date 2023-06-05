@@ -4,7 +4,7 @@
 
 ## Description
 
-This project is an example of a RESTful API developed with FastAPI that allows you to perform CRUD (Create, Read, Update, Delete) operations on a products model. It is designed with an academic focus so that backend programming learners can use it as a starting point and start working on it.
+This project is an  little example of a RESTful API developed with FastAPI that allows you to perform CRUD (Create, Read, Update, Delete) operations on a products model. It is designed with an academic focus so that backend programming learners can use it as a starting point and start working on it.
 
 ## Functionalities
 

@@ -4,10 +4,10 @@ from typing import Optional
 
 class Supplier (BaseModel):
     id : Optional[int]
-    sub_name : str = Field(max_length=40,min_length=2,description="name supplier")
-    address : str = Field(max_length=40,min_length=2,description="address")
+    sub_name : str = Field(max_length=40,min_length=2,description="supplier name")
+    address : str = Field(max_length=40,min_length=2,description="supplier address")
     phone : int = Field(ge=5)
-    email : str = Field(max_length=40,min_length=2,description="provider email")
+    email : str = Field(max_length=40,min_length=2,description="supplier email")
 
     class Config:
         schema_extra = {

@@ -7,5 +7,5 @@ class Supplies(Base):
 
     id = Column(Integer, primary_key = True)
     product_id = Column(Integer, ForeignKey("product.id"))
-    supplier_id = Column(Integer, ForeignKey("supplier.id"))
+    supplier_id = Column(Integer, ForeignKey("supplies.id"))
     purchase_price = Column()

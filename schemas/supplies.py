@@ -10,7 +10,7 @@ class Supplies(BaseModel):
     class Config:
         schema_extra = {
             "example":{
-                'supplier_id': 1,
+                'supplies_id': 1,
                 'product_id': 1,                
                 'purchase_price':1
             }

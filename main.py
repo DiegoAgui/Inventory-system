@@ -23,7 +23,7 @@ Base.metadata.create_all(bind=engine)
 
 @app.get('/',tags=['home'],status_code=200)
 def message():
-    return HTMLResponse('<h1>Hello Wizzards</h1>')
+    return HTMLResponse('<h1>Hello Wizards</h1>')
 
 @app.get('/hola',tags=['home'])
 def hola():

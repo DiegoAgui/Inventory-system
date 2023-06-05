@@ -12,7 +12,7 @@ class SuppliesService():
     
     def create_supplies(self, supplies:Suppliesmodel):
         new_supplies = Suppliesmodel(
-        supplier_id=supplies.supplier_id,
+        supplier_id=supplies.supplies_id,
         product_id=supplies.product_id,
         purchase_price=supplies.purchase_price
         )
@@ -26,7 +26,7 @@ class SuppliesService():
     
     def update_supplies(self,id:int, data:Supplies):
         supplies = self.db.query(Suppliesmodel).filter(Suppliesmodel.id == id).first()
-        supplies.supplier_id = data.supplier_id
+        supplies.supplier_id = data.supplies_id
         supplies.product_id = data.product_id 
         supplies.purchase_price = data.purchase_price
         self.db.commit()
