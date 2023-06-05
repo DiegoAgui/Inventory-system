@@ -12,6 +12,7 @@ class Supplier(Base):
     address = Column(String)
     phone = Column(Integer)
     email = Column(String)
+    
 
 
 
