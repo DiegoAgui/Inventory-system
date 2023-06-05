@@ -22,6 +22,6 @@ This project is an example of a RESTful API developed with FastAPI that allows y
 
 ## Contact
 
-If you have any any questions or suggestions, contact me at[diego.aguirre.9805@gmail.com](diego.aguirre.9805@gmail.com).
+If you have any questions or suggestions, contact me at[diego.aguirre.9805@gmail.com](diego.aguirre.9805@gmail.com).
 
 

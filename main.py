@@ -10,7 +10,7 @@ from routers.supplies import supplies_router
 
 
 app = FastAPI()
-app.title = "Mi app con FastAPI"
+app.title = "Mi Fastapi_Inventory"
 app.version = "0.0.1"
 
 app.add_middleware(Errorhandler)
@@ -23,7 +23,7 @@ Base.metadata.create_all(bind=engine)
 
 @app.get('/',tags=['home'],status_code=200)
 def message():
-    return HTMLResponse('<h1>Hello World</h1>')
+    return HTMLResponse('<h1>Hello Wizzards</h1>')
 
 @app.get('/hola',tags=['home'])
 def hola():
